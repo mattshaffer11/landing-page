@@ -1,18 +1,13 @@
 {
-  "name": "@mattshaffer11/landing-page",
-  "version": "1.0.0",
   "private": true,
+  "author": "Matt Shaffer",
+  "description": "Matt Shaffer's landing page",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html --dist-dir=docs && cp src/CNAME docs/CNAME"
   },
-  "author": "Matt Shaffer",
-  "license": "ISC",
-  "description": "Matt Shaffer's landing page",
-  "dependencies": {
-    "parcel": "^2.5.0"
-  },
   "devDependencies": {
+    "parcel": "^2.5.0",
     "@parcel/transformer-sass": "^2.5.0"
   }
 }
